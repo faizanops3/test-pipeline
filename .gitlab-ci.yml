@@ -1,0 +1,11 @@
+stages:
+  - test
+
+clone_and_run_script:
+  stage: test
+  script:
+    - pwd
+    - echo "Testing pipeline"
+    - cat test.txt
+
+
